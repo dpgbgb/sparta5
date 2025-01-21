@@ -24,5 +24,4 @@ def data():
       v[j.tag] = j.text
     p.append(v)
   
-  df = pd.DataFrame(p)
-  print(df)
+  pd.DataFrame(p)
