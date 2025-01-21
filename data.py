@@ -1,9 +1,9 @@
+import requests
+from google.colab import userdata
+import xml.etree.cElementTree as ET
+import pandas as pd
+
 def data():
-    import requests
-    from google.colab import userdata
-    import xml.etree.cElementTree as ET
-    import pandas as pd
-    
     url = 'https://openapi.gg.go.kr/ANIMALREGSTUS'
     
     params = {
