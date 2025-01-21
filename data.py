@@ -25,4 +25,4 @@ def data():
     p.append(v)
   
   df = pd.DataFrame(p)
-  df
+  print(df)
