@@ -23,5 +23,5 @@ for i in root.findall('row'):
     v[j.tag] = j.text
   p.append(v)
 
-df = pd.DataFrame(p)
-df
+dd = pd.DataFrame(p)
+dd
